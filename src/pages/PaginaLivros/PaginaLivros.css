@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+.container-livros {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(50px);
+
+}
+
+.container-livros-cadastro {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: rgb(0, 0, 0);
+    font-family: "Righteous", sans-serif;
+    gap: 20px;
+    border: 2px solid #000000;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.container-livro-input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: "Righteous", sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    width: 100%;
+    border-radius: 11px;
+}
+
+.container-livro-button {
+
+    display: block;
+    font-family: "Righteous", sans-serif;
+
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 11px;
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    padding: 20px;
+    gap: 20px;
+
+}
