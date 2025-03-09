@@ -1,9 +1,7 @@
-import instaciaApi from "./Api";
-
-class ServicoAnuncio{
-
-
-
-}
-
-export default ServicoAnuncio;
+class ServicoAnuncio {
+    addAnuncio(anuncio) {
+      return instaciaApi.post('/anuncio', anuncio);
+    }
+  }
+  
+  export default ServicoAnuncio;
