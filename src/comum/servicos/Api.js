@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const instaciaApi = axios.create({
-    baseURL: "mysql://root:sOhxxsQNuZQsOPvSfRedyLLNFrVnZsZI@trolley.proxy.rlwy.net:42849/railway"
+    // baseURL: 'http://localhost:3000',
+    baseURL: "https://banco-de-dados-api-4z97.onrender.com/"
 })
 
 export default instaciaApi;

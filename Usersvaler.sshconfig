@@ -1,0 +1,5 @@
+# Configuração para o repositório específico
+Host github.com-EduardoGatti
+  HostName github.com
+  User git
+  IdentityFile C:\Users\SEU_USUARIO\.ssh\031207
